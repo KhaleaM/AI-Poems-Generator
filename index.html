@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css"/>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Poems Generator</title>
 </head>
 <body>
@@ -15,15 +16,17 @@
         </header>
 
         <main>
-            <form>
+            <form id="generator">
                 <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off" class="instruction" />
                 <input type="submit" class="button"/>
             </form>
-            <div class="poem">
+            <div class="poem" id="poem">
                 Take me to the moon
                 </br>
                 To be among the stars
             </div>
+
+            <script src="src/index.js"></script>
             <footer>
                 This project was coded by <a href="https://www.shecodes.io/graduates/182572-khalea-mitchell">Khalea Mitchell</a> and
                 is open sourced on <a href="https://github.com/KhaleaM/AI-poems-generator">GitHub</a> and is hosted on <a
