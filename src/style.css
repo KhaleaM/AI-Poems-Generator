@@ -1,10 +1,11 @@
 body {
-    background-color: whitesmoke;
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/180/068/original/IMG_3796.jpeg?1778722333);
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    color: #885df1;
+    color: #cbbdec;
 }
 
 .container {
@@ -21,7 +22,7 @@ h1 {
     font-weight: 800;
     font-size: 36px;
     line-height: 1.5;
-    color: 272044;
+    color: #d6cff5;
 }
 
 .form-container {
@@ -30,6 +31,7 @@ margin-bottom: 30px;
 border-radius: 10px;
 box-shadow: 0px 20px 60px rgba(65, 50, 100 0.08);
 padding: 15px 20px;
+opacity: 0.92;
 }
 
 form {
