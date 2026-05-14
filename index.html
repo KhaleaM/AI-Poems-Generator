@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css"/>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
     <title>Poems Generator</title>
 </head>
 <body>
@@ -17,13 +18,10 @@
 
         <main>
             <form id="generator">
-                <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off" class="instruction" />
+                <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off" class="instruction" id="user-instructions"/>
                 <input type="submit" class="button"/>
             </form>
             <div class="poem" id="poem">
-                Take me to the moon
-                </br>
-                To be among the stars
             </div>
 
             <script src="src/index.js"></script>
